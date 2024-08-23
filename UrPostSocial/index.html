@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Icons FontAwesome 4.7.0 -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css" />
+    <script src="js/script.js" defer></script>
+    <title>UrPostSocial</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="cabecera_container">
+
+            <div class="navbar_logo">
+                <img src="images/banner.png" alt="" />
+            </div>
+
+            <div class="cabecera__buscar__item">
+                <form action="">
+                    <input type="search" placeholder="Buscar" id="buscar" class="buscar__input">
+                    <button><i class="fa fa-search"></i></button>
+                </form>
+                <a href="#" class="cabecera__audio"></a>
+            </div>
+
+            <div class="cabecera__iconos__item">
+                <a href="#" class="cabecera__videos"></a>
+                <a href="#" class="cabecera__apps"></a>
+                <a href="#" class="cabecera__notificaciones"></a>
+                <a href="#" class="cabecera__avatar"></a>
+            </div>
+        </nav>
+    </header>
+    <aside class="menu_container">
+        <ul class="menu-lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span>Home</span></a>
+            </li>
+        </ul>
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="fa fa-safari" aria-hidden="true"></i>
+                <span>Explorar</span></a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <span>Amigos</span></a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="fa fa-bell" aria-hidden="true"></i>
+                <span>Notificaciones</span></a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                <span>Perfil</span></a>
+        </li>
+    </aside>
+
+    <div class="right_row">
+        <div class="row">
+            <div class="publish">
+                <div class="row_title">
+                    <span>Estado</span>
+
+                </div>
+                <form method="" action="/">
+                    <div class="publish_textarea">
+                        <img class="border-radius-image" src="images/user.jpg" alt="" />
+                        <textarea type="text" placeholder="¿Qué tal Iván?" style="resize: none;"></textarea>
+                    </div>
+                    <div class="publish_icons">
+                        <ul>
+                            <li><i class="fa fa-camera"></i></li>
+                            <li><i class="fa fa-video-camera"></i></li>
+                            <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+                        </ul>
+                        <button>Publicar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row border-radius">
+            <div class="feed">
+                <div class="feed_title">
+                    <img src="images/user-7.jpg" alt="" />
+                    <span><b>Marina Valentina</b> publicó una <a href="feed.html">foto</a><br>
+                        <p>2 de marzo a las 6:05 pm</p>
+                    </span>
+                </div>
+                <div class="feed_content">
+                    <div class="feed_content_image">
+                        <a href="feed.html"><img src="images/photo-1.jpg" alt="" /></a>
+                    </div>
+                </div>
+                <div class="feed_footer">
+                    <ul class="feed_footer_left">
+                        <li class="hover-orange selected-orange"><i class="fa fa-heart"></i> 22k</li>
+                        <li><span><b>Alicia, Alfonso</b> y 47 más le dieron like a esto</span></li>
+                    </ul>
+                    <ul class="feed_footer_right">
+                        <li>
+                        <li class="hover-orange selected-orange"><i class="fa fa-share"></i> 7k</li>
+                        <a href="feed.html" style="color:#515365;">
+                            <li class="hover-orange"><i class="fa fa-comments-o"></i> 74 comentarios</li>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="suggestions_row">
+        <div class="row shadow">
+            <div class="row_title">
+                <span>Sugerencias de amistad</span>
+                <a href="friends.html">ver más..</a>
+            </div>
+            <div class="row_contain">
+                <img src="images/user-4.jpg" alt="" />
+                <span><b>Francis Smith</b><br>8 Amigos en común</span>
+                <button>+</button>
+            </div>
+            <div class="row_contain">
+                <img src="images/user-2.jpg" alt="" />
+                <span><b>Hugh Wilson</b><br>6 Amigos en común</span>
+                <button>+</button>
+            </div>
+            <div class="row_contain">
+                <img src="images/user-6.jpg" alt="" />
+                <span><b>Karen Masters</b><br>6 Amigos en común</span>
+                <button>+</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

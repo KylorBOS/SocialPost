@@ -1,0 +1,350 @@
+/* Estilos Generales */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.cabecera_container {
+  background-color: #365899;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 60px;
+  top: 0px;
+}
+
+.navbar_logo img {
+  height: 40px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+
+.cabecera__buscar__item {
+  height: 50px;
+  text-align: center;
+  width: 40%;
+  display: inline-block;
+  line-height: 3;
+}
+
+.cabecera__buscar__item input {
+  padding: 11px 15px;
+  border-radius: 20px;
+  width: 70%;
+}
+
+.cabecera__buscar__item button {
+  padding: 10px 18px 12px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #f0f2f5;
+  margin-left: -32px;
+  cursor: pointer;
+}
+
+.cabecera__buscar__item input:focus {
+  outline: none;
+}
+
+.cabecera__buscar__item button:hover {
+  background-color: #4267b2;
+  color: white;
+}
+
+.buscar__input {
+  width: 100%;
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: #f0f2f5;
+}
+
+.cabecera__iconos__item a {
+  margin-left: 15px;
+  font-size: 20px;
+  color: #666;
+}
+
+.cabecera__iconos__item a:hover {
+  color: #333;
+}
+
+/* Estilos para el menú lateral */
+.menu_container {
+  background-color: #fff;
+  width: 250px;
+  padding: 20px 0;
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.menu-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.menu__itens {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: #333;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  gap: 10px;
+}
+
+.menu__itens:hover {
+  background-color: #f0f2f5;
+  color: #365899;
+}
+
+.icono-item {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+/* Estilos para la sección principal */
+.right_row {
+  width: 50%;
+  margin: 80px auto 0 auto; /* Ajuste del margen superior */
+}
+
+.publish {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.publish_textarea {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.border-radius-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.publish_textarea textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f0f2f5;
+  font-size: 14px;
+}
+
+.publish_icons {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.publish_icons ul {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.publish_icons li {
+  height: 50px;
+  display: inline-block;
+  width: 50px;
+  font-size: 19px;
+  line-height: 2.5;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 3;
+  text-align: center;
+}
+
+.publish_icons button {
+  background-color: #4267b2;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  margin-left: 90px;
+  cursor: pointer;
+}
+
+.publish_icons button:hover {
+  background-color: #365899;
+}
+
+/* Estilos para las publicaciones (feeds) */
+.feed {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feed_title {
+  display: flex;
+  align-items: center;
+}
+
+.feed_title img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.feed_title span {
+  font-size: 14px;
+  color: #666;
+}
+
+.feed_title span b {
+  color: #333;
+}
+
+.feed_content p {
+  margin-top: 14px;
+}
+
+.feed_content_image {
+  width: 100%;
+  margin: 10px auto;
+  display: block;
+}
+
+.feed_content_image img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.feed_footer {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.feed_footer_left,
+.feed_footer_right {
+  display: flex;
+  align-items: center;
+}
+
+.feed_footer_left li,
+.feed_footer_right li {
+  margin-right: 15px;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.feed_footer_left li i,
+.feed_footer_right li i {
+  margin-right: 5px;
+}
+
+.selected-orange {
+  color: #4267b2;
+}
+
+.hover-orange:hover {
+  color: #4267b2;
+}
+
+/* Estilos para las sugerencias de amigos */
+.suggestions_row {
+  width: 20%;
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  bottom: 0;
+  overflow-y: auto;
+  padding-top: 20px;
+}
+
+.row.shadow {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.row_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.row_contain {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0px auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 0px auto;
+}
+
+.row_contain img {
+  width: 42px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+
+.row_contain span {
+  font-size: 13px;
+  margin-left: 10px;
+  width: 70%;
+}
+
+.row_contain span b {
+  font-size: 14px;
+  color: #515365;
+  cursor: pointer;
+}
+
+.row_contain button {
+  background-color: #4267b2;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.row_contain button:hover {
+  background-color: #365899;
+}
+
+/* Estilos del botón "Siguiendo" */
+.row_contain button.button-following {
+  background-color: #fff !important; /* Mismo color que las sugerencias de amistad */
+  color: #4267b2 !important; /* Color azul para la palabra "Siguiendo" */
+  border: 1px solid #4267b2 !important; /* Borde azul */
+  border-radius: 20px !important;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.row_contain button.button-following:hover {
+  background-color: #4267b2 !important; /* Color azul al pasar el mouse */
+  color: #fff !important; /* Texto blanco al pasar el mouse */
+}
